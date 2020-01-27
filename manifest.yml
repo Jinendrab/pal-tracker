@@ -1,0 +1,12 @@
+---
+applications:
+  - name: pal-tracker
+    path: build/libs/pal-tracker.jar
+    random-route: true
+    env:
+      WELCOME_MESSAGE: Hello from Cloud Foundry
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+      CF_PORT: "8675"
+      CF_MEMORY_LIMIT: "12G"
+      CF_INSTANCE_INDEX: "34"
+      INSTANCE_ADDR: "123.sesame.street"
