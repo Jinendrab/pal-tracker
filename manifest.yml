@@ -5,7 +5,7 @@ applications:
     routes
       - route: pal-tracker-zany-fossa.apps.evans.pal.pivotal.io
     env:
-      WELCOME_MESSAGE: Hello from Cloud Foundry
+      WELCOME_MESSAGE: Good morning!!!
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
       CF_PORT: "8675"
       CF_MEMORY_LIMIT: "12G"
