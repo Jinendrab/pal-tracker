@@ -22,7 +22,7 @@ test {
 }
 
 bootRun.environment([
-        "WELCOME_MESSAGE": "Hi",
+        "WELCOME_MESSAGE": "Hi2",
         "CF_PORT": "8675",
         "CF_MEMORY_LIMIT": "12G",
        "CF_INSTANCE_INDEX":"34",
