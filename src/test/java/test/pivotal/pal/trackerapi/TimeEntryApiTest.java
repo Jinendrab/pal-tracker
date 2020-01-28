@@ -31,6 +31,7 @@ public class TimeEntryApiTest {
 
     @Test
     public void testCreate() throws Exception {
+        //timeEntry = new TimeEntry(projectId, userId, LocalDate.parse("2017-01-08"), 8);
         ResponseEntity<String> createResponse = restTemplate.postForEntity("/time-entries", timeEntry, String.class);
 
 
