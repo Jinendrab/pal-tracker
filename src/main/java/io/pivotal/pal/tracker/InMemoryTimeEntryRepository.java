@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
+//@Repository
 public class InMemoryTimeEntryRepository implements  TimeEntryRepository {
     private Map<Long, TimeEntry> map = new HashMap<>();
     long counter=0;
